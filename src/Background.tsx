@@ -8,7 +8,7 @@ const Ground = (props: any) => {
 
   return (
     <mesh ref={ref}>
-      <planeBufferGeometry args={[20, 30, 1, 1]} />
+      <planeBufferGeometry args={[100, 100, 1, 1]} />
       <meshStandardMaterial color='#171720' />
     </mesh>
   )
